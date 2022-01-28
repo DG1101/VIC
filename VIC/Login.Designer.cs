@@ -89,9 +89,9 @@ namespace VIC
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(172, 162);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(170, 162);
             this.ControlBox = false;
             this.Controls.Add(this.log_interact);
             this.Controls.Add(this.log_to_reg);
@@ -100,7 +100,9 @@ namespace VIC
             this.Controls.Add(this.log_login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(190, 205);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(190, 205);
             this.Name = "Login";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;

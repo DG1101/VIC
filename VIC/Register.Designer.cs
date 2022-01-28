@@ -125,9 +125,9 @@ namespace VIC
             // 
             // Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(259, 268);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(255, 267);
             this.ControlBox = false;
             this.Controls.Add(this.reg_interact3);
             this.Controls.Add(this.reg_to_log);
@@ -139,7 +139,9 @@ namespace VIC
             this.Controls.Add(this.reg_login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(275, 310);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(275, 310);
             this.Name = "Register";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
